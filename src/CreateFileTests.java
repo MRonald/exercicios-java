@@ -5,7 +5,7 @@ import java.io.IOException;
 public class CreateFileTests {
     public static void main(String[] args) throws IOException {
         // Insira o nome do arquivo
-        String nameFile = "tests/Meu arquivo.txt";
+        String nameFile = ".txt";
         // ------------------------
         File file = new File(nameFile);
         FileWriter fw = new FileWriter(file);
