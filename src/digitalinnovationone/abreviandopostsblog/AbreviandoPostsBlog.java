@@ -1,4 +1,4 @@
-package digitalInnovationOne;
+package digitalinnovationone.abreviandopostsblog;
 
 import java.io.*;
 import java.util.*;
