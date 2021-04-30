@@ -7,10 +7,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EntrevistaEmbaraçosa {
+public class EntrevistaEmbaracosa {
     public static void main(String[] args) throws IOException {
         // Pegando o arquivo
-        File file = new File("EntrevistaEmbaraçosa.txt");
+        File file = new File("EntrevistaEmbaracosa.txt");
         FileReader fr = new FileReader(file);
         BufferedReader br = new BufferedReader(fr);
 
