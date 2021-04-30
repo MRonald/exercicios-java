@@ -11,6 +11,9 @@ Escreva um programa que, dada uma palavra errada, a mesma seja corrigida."
 Haverá diversos casos de teste. Cada caso de teste é formado por uma palavra, de, no máximo, 30 caracteres, dita da forma errada. A entrada termina com fim de arquivo.
 
 ## Saída
+
+Para cada caso de teste, escreva a palavra devidamente corrigida. Analise os exemplos para verificar o padrão, de modo a consertar todos os casos.
+
 | Exemplo de entrada | Exemplo de saída |
 | ------ | ------ |
 | barrilarril | barril |
