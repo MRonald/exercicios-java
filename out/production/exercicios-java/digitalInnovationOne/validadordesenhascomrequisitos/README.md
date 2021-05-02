@@ -18,34 +18,15 @@ A saída contém uma linha, que pode ser “Senha valida.”, caso a senha tenha
 
 | Exemplo de entrada | Exemplo de saída |
 | ------ | ------ |
-| Digital Innovation One
-| AbcdEfgh99
-| DigitalInnovationOne123
-| Digital Innovation One 123
-| Aass9
-| Aassd9
-| DIO123456
-| Ano2020
-| Digita!123 |  |
-
-## Entendendo a saída
-
-O enunciado da questão não foi bem elaborado, por isso esse foi um dos desafios mais difíceis de concluir. Na verdade, o que se espera é que você consiga percorrer toda a palavra dividindo-a em duas partes (parteInicial e parteFinal por exemplo) e caso a parteInicial termine com a parteFinal, remova a repetição e mostre a palavra modificada. Caso não haja repetições a palavra original deve ser impressa. Exemplos:
-
-- sanduicheiche -> parteInicial = 'sanduiche', parteFinal = 'iche'. Como 'sanduiche' termina em 'iche', imprimimos a parteInicial, que é 'sanduiche'.
-- barrilarril -> parteInicial = 'barril', parteFinal = 'arril'. Como 'barril' termina em 'arril', imprimimos a parteInicial, que é 'barril'.
-- sol -> Não há como dividir 'sol' de tal forma que a parteInicial termine com a parteFinal. Imprimimos 'sol'.
-
-É importante ressaltar que uma palavra pode ser dividida de mais de uma forma, e cada uma delas deve ser impressa. Exemplos:
-
-- testetetete
-    1. parteInicial = 'testete', parteFinal = 'tete'. Como 'testete' termina em 'tete', imprimimos 'testete'
-    1. parteInicial = 'testetete', parteFinal = 'te'. Como 'testetete' termina em 'te', imprimimos 'testetete'
-- aaaaa
-    1. parteInicial = 'aaa', parteFinal = 'aa'. Como 'aaa' termina em 'aa', imprimimos 'aaa'
-    1. parteInicial = 'aaaa', parteFinal = 'a'. Como 'aaaa' termina em 'a', imprimimos 'aaaa'
-
-Nestes casos em que uma palavra gera mais de uma saída, deve-se imprimir em ordem crescente de tamanho. Nos exemplos acima, 'aaa' vem antes de 'aaaa' e 'testete' vem antes de 'testetete'.
+| Digital Innovation One | Senha invalida. |
+| AbcdEfgh99 | Senha valida. |
+| DigitalInnovationOne123 | Senha valida. |
+| Digital Innovation One 123 | Senha invalida. |
+| Aass9 | Senha invalida. |
+| Aassd9 | Senha valida. |
+| DIO123456 | Senha invalida. |
+| Ano2020 | Senha valida. |
+| Digita!123 | Senha invalida. |
 
 ### JDK Version
 Open JDK 11
